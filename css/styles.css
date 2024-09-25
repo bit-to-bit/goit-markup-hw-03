@@ -1,0 +1,151 @@
+:root {
+    /* Fonts */
+    --font-primary: "Roboto", sans-serif;
+    --font-secondary: "Raleway", sans-serif;
+
+    /* Colors */
+    --cl-primary-brand: #4D5AE5;
+    --cl-pressed-state: #404BBF;
+    --cl-dark: #2E2F42;
+    --cl-success: #31D0AA;
+    --cl-text: #434455;
+    --cl-subtle-text: #8E8F99;
+    --cl-accent: #E7E9FC;
+    --cl-light: #F4F4FD;
+    --cl-modal-overlay: #2E2F42;
+    --cl-hero-background: #2E2F42;
+    --cl-white-background: #FFFFFF;
+    --cl-modal-background: #FCFCFC;
+
+}
+body {
+    font-family: var(--font-primary);
+    font-weight: Regular;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cl-text);
+    background-color: var(--cl-white-background);
+}
+ul,
+ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+button {
+    font-family: inherit;
+    color: currentColor;
+    cursor: pointer;
+}
+
+.item-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--cl-dark);
+}
+
+.item-text{
+    font-size: 16px;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--cl-dark);
+}
+
+.header{
+}
+
+.logo {
+
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--cl-primary-brand);
+}
+
+.logo-header-secondary{
+    color: var(--cl-dark);
+}
+
+.logo-footer-secondary{
+        color: var(--cl-light);
+}
+
+.menu-item{
+    font-weight: 500;
+    color: var(--cl-dark);
+
+
+}
+
+.menu-item:hover,
+.menu-item:focus,
+.address-item:hover,
+.address-item:focus {
+    color: var(--cl-pressed-state);
+}
+.address{
+    font-style: normal;
+}
+.address-item{
+}
+
+.hero{
+    background-color: var(--cl-hero-background);
+}
+
+.hero-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--cl-white-background);
+}
+.btn {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    color: var(--cl-white-background);
+    background-color: var(--cl-primary-brand);
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--cl-pressed-state);
+}
+
+.features {
+
+}
+
+.team{
+    background-color: var(--cl-light);
+}
+.team-item{
+    background-color: var(--cl-white-background);
+}
+
+.footer{
+    background-color: var(--cl-hero-background);
+}
+.footer-motto{
+    color: var(--cl-light);
+}
+.footer-logo{
+    color: var(--cl-light);
+}
